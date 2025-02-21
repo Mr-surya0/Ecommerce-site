@@ -1,0 +1,20 @@
+/* productList.css */
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;  
+  width: 90%;  
+  padding: 20px;
+}
+
+.grid-container .MuiCard-root {
+  display: flex;
+  flex-direction: column; 
+}
